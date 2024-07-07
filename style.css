@@ -1,0 +1,285 @@
+/*Resete*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*Topo inicio*/
+
+
+.topo-inicio {
+    position: relative;
+    width: 100%;    
+    height: 63px;
+    background-color: #604829;
+    top: 0;
+    left:0;
+    
+}
+
+.logo-inicio {
+    width: 60px;
+    height: 60px;
+    margin-left: 215px;
+}
+
+.inicio-links {
+    display: inline;
+    position: absolute;
+    top: 35%;
+    right: 8%;
+}
+
+.inicio-link {
+    margin-right: 18px;
+    font-size: 12px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 1000;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color: #c4a47c;
+}
+
+/*secao-banner*/
+
+.secao-banner {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    background-image: url("assets/parallax-imagem1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.titulo-banner {
+    font-size: 80px;
+    position: absolute;
+    top: 40%;
+    left: 7.5%;
+    color: white;
+    font-weight: 50;
+}
+
+/*segunda Seção*/
+
+.seca-melhor-cafe {
+    text-align: center;
+    margin: 0 auto;
+    padding: 90px 384px;
+}
+
+.sub-titulo {
+    color: #c8a47c;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.paragrafo-melhor-cafe {
+    color: #9392a5;
+    line-height: 2;
+    font-size: 13px;
+}
+
+/*Terceira Seção*/
+
+.secao-bom-cafe {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("assets/parallax-imagem2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed
+}
+
+.sub-titulo-bom-cafe {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    height: 35px;
+    width: 355px;
+    background-color: #604829;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    padding-top: 5px;
+}
+
+/*Quarta Seção*/
+.parallax {
+    background-image: url("assets/parallax-imagem3.jpg");
+}
+
+
+/*Quinta Seção*/
+
+.secao-contatos {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-image: url("assets/parallax-imagem4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-contatos {
+    box-sizing: border-box;
+    position: absolute;
+    top: 15%;
+    left: 24%;
+    text-align: center; 
+}
+
+.mapa {
+    width: 810px;
+    height: 330px;
+}
+
+.sub-titulo-contatos {
+    background-color: #604829;
+    width: 400px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin: 0px 0px 40px 200px;
+}
+
+.lista-contatos {
+    height: 100px;
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 60px;
+    padding-top: 10px;
+
+}
+
+.lista-links {
+    color: white;
+    text-decoration: none;
+}
+
+/*Sexta Seção*/
+
+.horarios-funcionamento {
+    width: 100%;
+    height:600px;
+    text-align: center;
+    color: white;
+    background-image: url(assets/cafeteria.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lista-dia-horarios {
+    text-align: center;
+    position: relative;
+}
+
+.sub-titulo-horarios {
+    font-size: 18px;
+}
+
+.dias-funcionamento {
+    margin-top: 30px;
+    padding-right: 500px;
+    
+}
+
+.position1 {
+    position: absolute;
+    top: 193px;
+    right: 378px;
+}
+
+.position2 {
+    position: absolute;
+    top: 240px;
+    right: 378px;
+}
+
+.position3 {
+    position: absolute;
+    top: 287px;
+    right: 378px;
+}
+
+.position4 {
+    position: absolute;
+    top: 337px;
+    right: 378px;
+}
+
+.position5 {
+    position: absolute;
+    top: 384px;
+    right: 378px;
+}
+
+.position6 {
+    position: absolute;
+    top: 432px;
+    right: 378px;
+}
+
+.position7 {
+    position: absolute;
+    top: 484px;
+    right: 378px;
+}
+
+.sub-titulo-horarios {
+    padding: 60px 30px;
+}
+
+.horarios {
+    padding-right: 100px;
+    margin-bottom: 60px;
+}
+
+/*Oitava Seção*/
+
+.rodape {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.rodape-seta {
+    position: absolute;
+    top: -50px;
+    right: 20px;
+    border: 0.1px solid #c4a47c;
+    background-color: #c4a47c;
+}
+
+.texto-rodape {
+    padding-top: 10px;
+}
+
+.rodape-criador {
+    color: #604829;
+}
+
+.final {
+    width: 100%;
+    height: 50px;
+}
+
+#topo {
+    font-size: 100px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-image: url(assets/seta-para-cima.png);
+}
